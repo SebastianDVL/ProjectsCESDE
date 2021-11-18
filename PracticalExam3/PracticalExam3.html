@@ -32,10 +32,11 @@
          
     <div class="p-5 w-50 m-auto">
         <h1 class="text-center mb-5">Salario Neto Trabajador</h1>
-        <div class="mb-3">
-          <label for="tdt"class="form-label">Tipo de Trabajador</label>
-          <input type="text" class="form-control" id="tdt">
-        </div>
+        <label for="tdt" class="form-label">Selecciona el tipo de trabajador:</label>
+        <select class="form-select mb-5" id="tdt">
+          <option value="1">Fijo</option>
+          <option value="2">Temporal</option>
+        </select>
         <div class="mb-3">
             <label for="nom"class="form-label">Nombre</label>
             <input type="text" class="form-control" id="nom">
@@ -50,7 +51,7 @@
           </div>
          <div class="mb-3">
             <label for="dds"class="form-label">Deduciones</label>
-            <input type="number" class="form-control" id="dds" disabled>
+            <input type="number" class="form-control" id="dds">
           </div>
           <div class="mb-3">
             <label for="bns"class="form-label">Bonificaciones</label>
