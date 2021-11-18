@@ -11,3 +11,16 @@ height:70vh;
 width:100%;
 }
 
+div.container{
+    width:45%;
+}
+
+div.card{
+    width:18rem;
+}
+
+#scroll{
+    height: 80vh;
+    overflow-y: scroll;
+    position:relative;
+}
